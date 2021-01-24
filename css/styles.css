@@ -59,8 +59,8 @@ body {
 }
 
 .header {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  /* padding-top: 24px;
+  padding-bottom: 25px; */
   border-bottom: 1px solid #ececec;
 }
 
@@ -110,6 +110,9 @@ body {
 }
 
 .navigation-list-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -117,6 +120,9 @@ body {
 }
 
 .head-contacts {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -408,15 +414,16 @@ body {
 
 .portfolio-list-item {
   margin: 15px;
-  border: 1px solid #eeeeee;
 }
-
+.portfolio-list-link {
+}
 .portfolio-list-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
+  margin-bottom: 4px;
 }
 
 .portfolio-list-text {
@@ -425,6 +432,23 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
+}
+
+.cards-title {
+  padding: 20px 24px;
+
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #eeeeee;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
+
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #eeeeee;
+  /* border: 1px solid #eeeeee; */
 }
 /* ============= end portfolio list =============*/
 
