@@ -59,15 +59,15 @@ body {
 }
 
 .header {
-  /* padding-top: 24px;
-  padding-bottom: 25px; */
+  padding-top: 24px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
 .logo {
   margin-right: 92px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  /* padding-top: 24px;
+  padding-bottom: 25px; */
 
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -113,8 +113,8 @@ body {
 
 .navigation-list-link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -123,8 +123,8 @@ body {
 
 .head-contacts {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
