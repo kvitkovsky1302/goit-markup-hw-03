@@ -66,6 +66,8 @@ body {
 
 .logo {
   margin-right: 92px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -146,7 +148,6 @@ body {
 
 .section-hero {
   background-color: var(--background-color);
-  margin-bottom: 94px;
 }
 .hero-title {
   max-width: 710px;
@@ -185,7 +186,8 @@ body {
 /* ============= info =============*/
 
 .section-info {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .visually-hidden {
@@ -212,7 +214,7 @@ body {
 }
 
 .info-item-title {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -231,7 +233,7 @@ body {
 /* ============= what we are doing =============*/
 
 .section-we-doing {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .we-doing-title {
@@ -366,8 +368,8 @@ body {
 /* ============= portfolio section =============*/
 
 .section-portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* ============= end portfolio section =============*/
@@ -415,8 +417,8 @@ body {
 .portfolio-list-item {
   margin: 15px;
 }
-.portfolio-list-link {
-}
+/* .portfolio-list-link {
+} */
 .portfolio-list-title {
   font-weight: 700;
   font-size: 18px;
